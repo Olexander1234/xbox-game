@@ -1,0 +1,677 @@
+html{
+    box-sizing: border-box;
+
+  }
+  
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+  
+  /* Решта коду */
+  
+    body {      
+   
+     
+      font-family: 'HelveticaNeue';
+    }
+
+    body.modal-open{
+      overflow: hidden;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    ul {
+      margin-top: 0;
+    }
+    
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    } 
+  
+    ul li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .contairn{
+        margin-top: 100px;
+       
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+          
+    }
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+
+      /* Хедер */
+
+
+.header{
+    height: 60px;
+    background: #373A3C;
+border-radius: 4px;
+
+@media(max-width: 480px) {
+  height: 200px;
+}
+}
+
+.logo{
+    display: flex;
+  margin-left: 163px;
+
+   align-items: center;
+}
+
+.logo-a{
+    margin-top: 15px;
+}
+
+.logo-games{
+    font-family: 'HelveticaNeue';
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+margin-left: 282px;
+
+
+}
+.logo-games-2{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.header-list{
+    display: flex;
+
+   
+
+}
+.header-list li + li{
+    margin-left: 45px;
+}
+.logo-li{
+    margin-top: 21px;
+    @media (max-width: 480px) {
+ margin-left: 0;
+    
+   
+    }
+
+    
+   
+}
+.input{
+    width: 209.8px;
+height: 38px;
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 4px;
+margin-left: 37px;
+margin-top: 11px;
+}
+
+.svg-accaunt{
+    margin-left: 23px;
+margin-bottom: -25px;
+}
+
+.xbox-ak{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: -25px;
+    
+}
+.xbox-ul{
+    margin-top: 20px;
+    margin-left: 4px;
+ 
+}
+.logo-font{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 16px;
+}
+/* 
+герой */
+
+
+
+.hero-1{
+    background-color: #2f303a;
+      text-align: center;
+      padding-bottom: 100px;
+      padding-top: 100px;
+  
+  height: 800px;
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),    url("./photos/ss_a35aaa73e605c0738a53a74abbcb53768e8f39e1.1920x1080.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+  }
+
+.hero-h1{
+    font-family: 'Montserrat';
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+margin-left: 900px;
+margin-top: 100px;
+
+}
+
+
+.hero-p{
+    font-family:'Montserrat';
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+margin-left: 900px;
+margin-top: -30px;
+}
+
+.button{
+    width: 136px;
+height: 38px;
+background: #8DD83D;
+font-family: 'Montserrat';
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+margin-top: 150px;
+margin-left: 20px;
+
+
+}
+
+
+.hero-ul{
+margin-left: 600px;
+}
+
+
+/* section */
+
+.duty{
+    font-family: 'Montserrat';
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+color:  #435766;
+margin-left: 700px;
+}
+
+
+
+
+.button-1{
+    width: 170px;
+height: 52px;
+background: #8DD83D;
+font-family:'Montserrat';
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+text-align: center;
+
+}
+
+.button-2{
+    width: 235px;
+height: 52px;
+background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+font-family: 'Montserrat';
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+
+color: #FFFFFF;
+margin-left: 20px;
+}
+
+.CALL{
+    margin-left: 515px;
+    margin-top: 150px;
+}
+
+
+.trailer{
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.life{
+    font-family: 'Montserrat';
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+color: #435766;
+margin-top: 150px;
+margin-left: 300px;
+width: 500px;
+}
+
+.img{
+    margin-left: 700px;
+}
+
+.IMG-2{
+    width: 524px;
+    height: 359px;
+    margin-left: 200px ;
+    margin-top: -200px;
+}
+
+.best{
+    font-family: 'Montserrat';
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+color: #435766;
+
+margin-left: 800px;
+margin-top: 100px;
+width: 700px;
+}
+.technical{
+    font-family: 'Montserrat';
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+ color: #435766;
+ margin-left: 600px;
+ margin-top: 100px;
+}
+
+.windows{
+    font-family: 'Montserrat';
+font-size: 21px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #435766;
+}
+
+
+.windows-0{
+    margin-left: 300px;
+}
+.windows-1{
+    margin-left: 800px;
+   margin-bottom: 100px;
+}
+
+.windows-ul{
+    margin-top: 100px;
+}
+
+.windows-2{
+    margin-left: 350px; 
+
+}
+
+.windows-3{
+    margin-left: 800px;
+    margin-top: -40px;
+}
+
+
+
+
+/* Додайте наступний CSS-код до вашого файлу C.O.D.E.css */
+
+/* Приклад анімації кнопок */
+.button {
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #7dd42f;
+  }
+  
+  /* Приклад анімації тексту */
+  .hero-h1 {
+    animation: slideInLeft 1s ease;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Приклад анімації зображення */
+  .img {
+    animation: fadeIn 1s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Анімація при наведенні на кнопку */
+.button {
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #7dd42f;
+    transform: scale(1.1);
+  }
+  
+  /* Анімація збільшення зображення */
+  .img {
+    transition: transform 0.3s ease;
+  }
+  
+  .img:hover {
+    transform: scale(1.2);
+  }
+  
+  .IMG-2 {
+    transition: transform 0.3s ease;
+  }
+
+  .IMG-2:hover {
+    transform: scale(1.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .button,
+.button-1,
+.button-2 {
+  
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover,
+.button-1:hover,
+.button-2:hover {
+  background-color: #7DD42F;
+  transform: scale(1.1);
+}
+
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .scale {
+    transform: scale(0);
+    animation: scaleIn 0.5s ease forwards;
+  }
+  
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+.footer{
+
+    height: 395px;
+    background: #373A3C;
+    
+    
+    }
+    
+    .navigation-footer-p{
+      font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #7DD42F;
+    
+    }
+    
+    .navigation-footer{
+      margin-top: 50px;
+    }
+    .footer-ul{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .footer-ul li + li {
+    margin-left: 400px;
+    }
+    
+    .support-p{
+      font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    }
+    
+    .support-li{
+    margin-top: 
+    40px;
+    margin-left: 215px;
+    }
+    
+    .games{
+      font-family:'Montserrat';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    }
+    
+    .games-li{
+      margin-left: 670px;
+      margin-top: 
+      40px;
+    }
+    
+    .games-ul{
+      margin-top: -225px;
+    }
+    
+    
+    .link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 950px;
+      margin-top: -230px;
+    }
+    
+    .link li + li{
+      margin-left: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+      
+    }
+    
+    /* Hide default HTML checkbox */
+    .switch input {
+      display:none;
+      margin-top: 20px;
+    }
+    
+    .switch-ul{
+      margin-top: 20px;
+    }
+    
+     .slider {
+      position: absolute;
+    
+      top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+      background-color: #7A7A7A;
+       -webkit-transition: .3s;
+       transition: .3s;
+    
+     }
+    
+    
+    
+    .slider::before {
+      position: absolute;
+     
+      content: "";
+      height: 20.5px;
+      width: 20px;
+    
+      left: 1px;
+    
+      background-color: white;
+      -webkit-transition: .3s;
+      transition: .3s;
+      background-image: url(/Ellipse\ 8\ \(2\)\ \(1\).svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    
+    input:checked + .slider {
+      background-color:#7A7A7A;
+    }
+    .icon-slider.moon{
+      position: absolute;
+      justify-content: center;
+    }
+    
+    
+    input:checked + .slider:before  {
+      -webkit-transform: translateX(19px);
+      -ms-transform: translateX(19px);
+      transform: translateX(19px);
+      background-color: #000000;
+      background-image: url(/Ellipse\ 7\ \(2\).svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    
+    
+    }
+    
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    
+    .logo{
+      width: inherit;
+      fill:#000000;
+    
+    }
+    .black-p{
+    
+      color: #FFFFFF;
+    }
+    .body-black{
+      background:  #686C6F ;
+     
+    }
+    
+    .black-p{
+      color: #FFFFFF;
+    }
+    
+    .js-calculate{
+      display: none;
+    }

@@ -1,0 +1,335 @@
+
+html{
+    box-sizing: border-box;
+
+  }
+  
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+  
+  /* Решта коду */
+  
+    body {      
+   
+    
+      font-family: 'HelveticaNeue';
+    }
+
+    body.modal-open{
+      overflow: hidden;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+    
+    h1,
+    h2,
+    h3,
+    p,
+    ul {
+      margin-top: 0;
+    }
+    
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    } 
+  
+    ul li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .conteirn{
+        margin-top: 100px;
+       
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+          
+    }
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+
+      /* Хедер */
+
+
+.header{
+    height: 60px;
+    background: #373A3C;
+border-radius: 4px;
+
+@media(max-width: 480px) {
+  height: 200px;
+}
+}
+
+.logo{
+    display: flex;
+  margin-left: 163px;
+
+   align-items: center;
+}
+
+.logo-a{
+    margin-top: 15px;
+}
+
+.logo-games{
+    font-family: 'HelveticaNeue';
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+margin-left: 282px;
+
+
+}
+.logo-games-2{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.header-list{
+    display: flex;
+
+   
+
+}
+.header-list li + li{
+    margin-left: 45px;
+}
+.logo-li{
+    margin-top: 21px;
+    @media (max-width: 480px) {
+ margin-left: 0;
+    
+   
+    }
+
+    
+   
+}
+.input{
+    width: 209.8px;
+height: 38px;
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 4px;
+margin-left: 37px;
+margin-top: 11px;
+}
+
+.svg-accaunt{
+    margin-left: 23px;
+margin-bottom: -25px;
+}
+
+.xbox-ak{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: -25px;
+    
+}
+.xbox-ul{
+    margin-top: 20px;
+    margin-left: 4px;
+ 
+}
+.logo-font{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 16px;
+}
+  .h1 {
+    font-family: 'HelveticaNeue';
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    margin-left: 650px;
+  }
+
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+  .conteirn{
+    margin-top: 100px;
+   
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+      
+}
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-control {
+ margin-left: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+  }
+
+  .js-card-container {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .js-card-container .container {
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer{
+
+    height: 395px;
+    background: #373A3C;
+    
+    
+    }
+    
+    .navigation-footer-p{
+      font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #7DD42F;
+    
+    }
+    
+    .navigation-footer{
+      margin-top: 50px;
+    }
+    .footer-ul{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .footer-ul li + li {
+    margin-left: 400px;
+    }
+    
+    .support-p{
+      font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    }
+    
+    .support-li{
+    margin-top: 
+    40px;
+    margin-left: 215px;
+    }
+    
+    .games{
+      font-family:'Montserrat';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    }
+    
+    .games-li{
+      margin-left: 670px;
+      margin-top: 
+      40px;
+    }
+    
+    .games-ul{
+      margin-top: -225px;
+    }
+    
+    
+    .link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 950px;
+      margin-top: -230px;
+    }
+    
+    .link li + li{
+      margin-left: 10px;
+    }
